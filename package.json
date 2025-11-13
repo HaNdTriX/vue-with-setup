@@ -1,0 +1,56 @@
+{
+  "name": "vue-with-setup",
+  "version": "0.0.0",
+  "description": "Small vitest helper function to test vue composables.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/handtrix/vue-with-setup#readme",
+  "bugs": {
+    "url": "https://github.com/handtrix/vue-with-setup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handtrix/vue-with-setup.git"
+  },
+  "author": "Henrik Wenz <handtrix@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "play": "vite",
+    "test": "vitest",
+    "typecheck": "vue-tsc --noEmit",
+    "release": "bumpp && pnpm publish",
+    "prepublishOnly": "pnpm run build"
+  },
+  "peerDependencies": {
+    "vitest": "^4.0.8",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vueuse/core": "^14.0.0",
+    "bumpp": "^10.3.1",
+    "happy-dom": "^20.0.10",
+    "tsdown": "^0.16.0",
+    "typescript": "^5.9.3",
+    "vite": "npm:rolldown-vite@^7.1.20",
+    "vitest": "^4.0.8",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.1.3"
+  }
+}
