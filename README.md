@@ -1,5 +1,7 @@
 # vue-with-setup
 
+<a href="https://www.npmjs.com/package/vue-with-setup" target="__blank"><img src="https://img.shields.io/npm/v/vue-with-setup?color=a1b858&label=" alt="NPM version"></a>
+
 A vitest utility to use Vue 3 composables in tests without mounting a component.
 
 ## Install
