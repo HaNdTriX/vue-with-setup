@@ -73,3 +73,7 @@ pnpm run test
 ```bash
 pnpm run build
 ```
+
+## License
+
+[MIT License](https://github.com/HaNdTriX/vue-with-setup/blob/main/license.md) © 2025 [Henrik Wenz](https://github.com/handtrix)
