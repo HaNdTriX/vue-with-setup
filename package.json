@@ -34,7 +34,6 @@
   "scripts": {
     "build": "tsdown",
     "dev": "tsdown --watch",
-    "play": "vite",
     "test": "vitest",
     "typecheck": "vue-tsc --noEmit",
     "release": "bumpp && pnpm publish",
@@ -47,7 +46,6 @@
   "devDependencies": {
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.1",
-    "@vue/test-utils": "^2.4.6",
     "@vueuse/core": "^14.0.0",
     "bumpp": "^10.3.1",
     "happy-dom": "^20.0.10",
