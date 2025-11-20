@@ -1,6 +1,6 @@
 {
   "name": "vue-with-setup",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Small vitest helper function to test vue composables.",
   "type": "module",
   "license": "MIT",
