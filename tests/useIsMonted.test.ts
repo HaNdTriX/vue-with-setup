@@ -1,4 +1,3 @@
-import { mount } from "@vue/test-utils";
 import { expect, test } from "vitest";
 import { withSetup } from "../src";
 import useIsMounted from "./examples/useIsMounted";

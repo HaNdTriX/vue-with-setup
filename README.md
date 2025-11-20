@@ -15,7 +15,6 @@ npm install vue-with-setup --save-dev
 ### Basic Example
 
 ```ts
-import { mount } from "@vue/test-utils";
 import { expect, test } from "vitest";
 import { withSetup } from "vue-with-setup";
 import { useToggle } from "@vueuse/core";
@@ -35,7 +34,6 @@ test("useToggle", () => {
 ### With App Context
 
 ```ts
-import { mount } from "@vue/test-utils";
 import { expect, test } from "vitest";
 import { withSetup } from "vue-with-setup";
 
@@ -56,12 +54,6 @@ test("useToggle", () => {
 
 ```bash
 pnpm install
-```
-
-- Run the playground:
-
-```bash
-pnpm run playground
 ```
 
 - Run the unit tests:
