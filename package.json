@@ -40,7 +40,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
-    "vitest": "^4.0.8",
+    "vitest": "^4.0.8 || ^5.0.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
